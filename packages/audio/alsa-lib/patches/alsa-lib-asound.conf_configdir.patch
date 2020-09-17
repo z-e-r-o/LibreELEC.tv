@@ -5,7 +5,7 @@ index bb00ff40..cba5b6f2 100644
 @@ -10,7 +10,8 @@
  		files [
  			"/etc/alsa/conf.d"
- 			"/etc/asound.conf"
+ 			"/etc/asound.conf|||/usr/etc/asound.conf"
 -			"~/.asoundrc"
 +			"/run/asound.conf"
 +			"/storage/.config/asound.conf"
